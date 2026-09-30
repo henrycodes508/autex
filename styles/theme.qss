@@ -1,0 +1,151 @@
+QMainWindow {
+    background: #0b0f14;
+}
+
+QWidget {
+    color: #edf2f7;
+    font-family: "Segoe UI";
+}
+
+#header {
+    background: #10161f;
+    border-bottom: 1px solid #202936;
+}
+
+#logo {
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+#headerLesson {
+    color: #8d99a8;
+    font-size: 14px;
+}
+
+#liveStatus {
+    color: #6ee7b7;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+#lessonTitle {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#lessonSubtitle {
+    color: #7f8b99;
+    font-size: 14px;
+}
+
+#transcriptScroll {
+    background: transparent;
+    border: none;
+}
+
+QScrollBar:vertical {
+    background: transparent;
+    width: 8px;
+    margin: 4px;
+}
+
+QScrollBar::handle:vertical {
+    background: #263241;
+    border-radius: 4px;
+    min-height: 30px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #3a4b60;
+}
+
+QScrollBar::add-line:vertical,
+QScrollBar::sub-line:vertical {
+    height: 0px;
+}
+
+QTextBrowser {
+    background: #111821;
+    border: 1px solid #202936;
+    border-radius: 18px;
+    padding: 16px;
+}
+
+#assistantTitle {
+    font-size: 21px;
+    font-weight: 700;
+}
+
+#assistantSubtitle {
+    color: #7f8b99;
+    font-size: 13px;
+}
+
+#selectedWord {
+    background: #111821;
+    border: 1px solid #263241;
+    border-radius: 16px;
+    padding: 16px;
+    font-size: 16px;
+    color: #aeb8c5;
+}
+
+QPushButton {
+    background: #151d27;
+    border: 1px solid #263241;
+    border-radius: 12px;
+    padding: 13px;
+    font-size: 14px;
+    text-align: left;
+}
+
+QPushButton:hover {
+    background: #1b2633;
+    border-color: #3a4b60;
+}
+
+QPushButton:pressed {
+    background: #202d3c;
+}
+
+QTextEdit,
+QLineEdit {
+    background: #0f151d;
+    border: 1px solid #263241;
+    border-radius: 14px;
+    padding: 13px;
+    font-size: 14px;
+}
+
+QTextEdit {
+    color: #dce3eb;
+}
+
+QLineEdit {
+    color: #edf2f7;
+}
+
+QLineEdit:focus,
+QTextEdit:focus {
+    border-color: #4c6fff;
+}
+
+#footer {
+    background: #10161f;
+    border-top: 1px solid #202936;
+}
+
+#footerStatus {
+    color: #6ee7b7;
+    font-size: 12px;
+}
+
+#footerLanguage {
+    color: #697585;
+    font-size: 12px;
+}
+
+#separator {
+    color: #202936;
+}
